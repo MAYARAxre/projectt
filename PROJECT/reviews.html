@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Musical Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="brand">Musical Blog</div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="#reviews">Reviews</a>
+                <a href="login.html">Login</a>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+<br><br><br><br><br><br>
+    <main>
+        <section id="reviews">
+            <div class="container">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <h3>Awesome Music Collection</h3>
+                    <p>This website has introduced me to some amazing tracks!</p>
+                    <p><em>- Music Lover</em></p>
+                </div>
+                <div class="review">
+                    <h3>Incredible Discovery</h3>
+                    <p>Never thought I'd find such unique musical pieces in one place.</p>
+                    <p><em>- Music Enthusiast</em></p>
+                </div>
+                <!-- Add more reviews as needed -->
+                
+                <!-- Add a space for users to leave reviews -->
+                <div class="leave-review">
+                    <h3>Leave a Review</h3>
+                    <form id="review-form">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        
+                        <label for="review">Your Review:</label>
+                        <textarea id="review" name="review" rows="4" required></textarea>
+                        
+                        <button type="submit" class="cta-button">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Musical Blog</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
